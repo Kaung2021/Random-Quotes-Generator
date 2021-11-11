@@ -1,0 +1,44 @@
+body{
+     margin: 0;
+     padding: 0;
+     background-color: rgb(49, 80, 90);
+}
+ .container{
+        height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 12px;
+      
+ }
+ /*Style to h1*/
+     h1{
+          text-align: center;
+          color: whitesmoke;
+     }
+     #quotes{
+          align-items: center;
+          justify-content: center;
+          color: white;
+     }
+     #button{
+          position: absolute;
+          bottom: 120px;
+          padding: 15px;
+          color: whitesmoke;
+          background-color:rgb(165, 165, 165) ;
+          border: none;
+          cursor: pointer;
+          text-transform: uppercase;
+          transition: 0.3s;
+     }
+     #button:hover{
+          background-color: rgb(145, 145, 145);
+          margin: 12px;
+     }
+ /*Making responsive*/
+      @media screen and (max-width:480px){
+          #quotes{
+               font-size: 18px;
+          }
+      }
